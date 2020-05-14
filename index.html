@@ -131,8 +131,8 @@
         <h2>Tickets</h2>
         <p>Your Tickets</p>
       </div>
-      <div class="row d-flex justify-content-around">
-        <div class="card text-center text-dark border border-dark bg-light" style="width: 18rem;">
+      <div class="row d-flex justify-content-around" id="temp-parent">
+        <div class="card text-center text-dark border border-dark bg-light to-remove" style="width: 18rem;" id="">
           <img class="card-img-top" src="./resources/QR1.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Newark - Jersey City</h5>
@@ -143,10 +143,10 @@
             <li class="list-group-item">Status : On time</li>
           </ul>
           <div class="card-body">
-            <button class="btn btn-success"> REDEEM </button>
+            <button class="btn btn-success redeem-ticket" id="redeem-1"> REDEEM </button>
           </div>
         </div>
-        <div class="card text-center text-dark border border-dark bg-light" style="width: 18rem;">
+        <div class="card text-center text-dark border border-dark bg-light to-remove" style="width: 18rem;">
           <img class="card-img-top" src="./resources/QR2.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Union - Newark</h5>
@@ -157,10 +157,10 @@
             <li class="list-group-item">Status : On time</li>
           </ul>
           <div class="card-body">
-            <button class="btn btn-success"> REDEEM </button>
+            <button class="btn btn-success redeem-ticket"> REDEEM </button>
           </div>
         </div>
-        <div class="card text-center border border-dark text-dark bg-light" style="width: 18rem;">
+        <div class="card text-center border border-dark text-dark bg-light to-remove" style="width: 18rem;">
           <img class="card-img-top" src="./resources/QR3.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Rahway - Clark</h5>
@@ -171,7 +171,7 @@
             <li class="list-group-item">Status : On time</li>
           </ul>
           <div class="card-body">
-            <button class="btn btn-success"> REDEEM </button>
+            <button class="btn btn-success redeem-ticket"> REDEEM </button>
           </div>
         </div>
       </div>
@@ -331,6 +331,16 @@
     $("#clear-tab").click(function () {
       $('#tab').remove();
     });
+
+    function redeem(){
+      $('.to-remove').remove();
+      $('#temp-parent').append('<img src="./resources/QR1.png">')
+    }
+
+    $(".redeem-ticket").click(function () {
+      redeem();
+    });
+
   </script>
 
 </body>
