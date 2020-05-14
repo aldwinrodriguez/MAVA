@@ -12,6 +12,8 @@ Mava wanted to make website where your everyday train rider will be able to use 
 #
 •	Once ticket has been successfully purchased an email confirmation will be sent with ticket attached  
 •	Once on train with ticket on hand the conductor will go through the train either collecting or scanning tickets to verify tickets purchased  
-•	Tickets purchased through Mava are non-refundable   
+•	Tickets purchased through Mava are non-refundable         
 
+## Checkout the website:
+# https://aldwinrodriguez.github.io/MAVA/
  
