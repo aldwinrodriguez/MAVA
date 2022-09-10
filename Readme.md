@@ -5,7 +5,7 @@ Mava wanted to make website where your everyday train rider will be able to use 
 	With Mava making an account would be the easiest and quickest to get the tickets that you want. We would ask you to provide basic information like your name, address and ect. When it comes to the purchase of tickets, we would like you to add a form of payment, credit/debt card. Once all the information is added you are welcome to start exploring the site options to buy tickets from the origin station to the destination you would like to get to, we will be showing the times and available tickets.
 
 <img src="screenshots/1.png" alt="alt text" width="914" height="487">  
-<img src="screenshots/main.gif" alt="alt text" width="922" height="488">
+<img src="screenshots/mava.gif" alt="alt text" width="922" height="488">
 
 
 #
