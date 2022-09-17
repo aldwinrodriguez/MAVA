@@ -9,7 +9,7 @@ Mava wanted to make website where your everyday train rider will be able to use 
 #
 •	With address provided we will give you the closest station near the address provide, though you may choose the station closer to your current location  
 •	Once decided on where you are coming from and where you would like to go, choose exactly what day and time you want choose with the provided drop down boxes   
-•	tickets you would like to purchase, there is a limited amount of tickets to purchase from for each time and destinations   
+•	Tickets you would like to purchase, there is a limited amount of tickets to purchase from for each time and destinations   
 
 #
 •	Once ticket has been successfully purchased an email confirmation will be sent with ticket attached  
